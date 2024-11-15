@@ -312,3 +312,108 @@ nav .slack-logo {
     width: 20px;
     height: auto;
 }
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+    .header-container {
+        margin-bottom: 135px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .main-container {
+        width: 60%;
+        text-align: start;
+    }
+
+    #main-title {
+        width: 75%;
+        font-size: 5rem;
+    }
+
+    .main-container p {
+        width: 75%;
+        font-size: 1.7rem;
+    }
+
+    .image-container {
+        width: 500px;
+        position: absolute;
+        left: 65%;
+    }
+
+    .collab-section {
+        padding: 40px;
+    }
+
+    .collab-section p {
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+    
+    .collab-section .collab-companies-img {
+        width: 755px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .collab-section img {
+        margin: 0;
+    }
+
+    .benefits-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .benefits-section h3 {
+        font-size: 1.5em;
+        margin: 30px 0px;
+    }
+
+    #p-benefits-content {
+        font-size: 1.2em;
+    }
+
+    .ul-benefits-section {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .p-container-benefits {
+        text-align: left;
+    }
+
+    .cta-section {
+        margin-bottom: 35px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    
+    .footerLinks-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    .footerLinks-container li {
+        margin: 0;
+    }
+
+    .icon-container {
+        gap: 5px;
+    }
+
+    .socialMedia-links {
+        width: 350px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 75px;
+    }
+}
